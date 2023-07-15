@@ -14,7 +14,7 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: rgb(68, 77, 207);
+  --background-color: linear-gradient(45deg, #9B8BC7 0%, #EDA074 100%);
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
@@ -59,7 +59,7 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-image: var(--background-color);
   display: none;
 }
 
